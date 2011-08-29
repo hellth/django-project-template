@@ -1,0 +1,9 @@
+BeautifulSoup
+
+Django==1.3
+south>=0.7
+django-form-utils
+django-debug-toolbar
+django-pagination
+
+-e git+https://github.com/rbas/django-nojo.git#egg=django-nojo>=0.1.2
