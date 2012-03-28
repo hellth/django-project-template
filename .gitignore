@@ -1,4 +1,5 @@
 *.pyc
 *.pyo
 .idea*
-settings/local.py
+django-project-template/settings/local.py
+django-project-template/static/admin/*
