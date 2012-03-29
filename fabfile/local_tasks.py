@@ -4,14 +4,14 @@ from fabric.api import task, local
 from fabric.colors import green
 
 __all__ = [
-    'prepare_folders', 'prepare_static', 'deploy',
+    'prepare_folders', 'prepare_static', 'build',
     'install_dependencies'
 ]
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 PROJECT_PATH = os.path.dirname(
-    os.path.join(PATH,  '..', 'django-project-template'))
-PROJECT_ROOT = os.path.dirname(os.path.join(PATH,  '..'))
+    os.path.join(PATH,  '..', 'invoices'))
+PROJECT_ROOT = os.path.dirname(os.path.join(PATH,  '..' , '..'))
 
 @task
 def prepare_folders():
